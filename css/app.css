@@ -69,6 +69,22 @@ h1, h2, h3, h4, h5, h6, button {
 .tabs-content {
   border: 0;
 }
+#lineup-container .orbit-container {
+  margin-bottom: 1em;
+}
+#lineup-container .column:nth-child(odd) figcaption {
+  text-align: right;
+}
+/*Error: Actualmente meter un Orbit dentro de unos tabs no funciona. Tan sólo se muestra el primer tabs, el resto deja de mostrar el contenido. Dejo mi código, por si es fallo mío:*/
+/* solución: */
+/*El error corresponde a un bug de foundation, si cambias el tamaño de la pantalla aparecerán los orbit asi que lo unico que tienes que hacer es cambiar el height a auto en la clase orbit-container y el max-height a none en la clase orbit-slide y funciona de maravilla*/
+.orbit-container {
+  height: auto !important;
+}
+.orbit-slide {
+  max-height: none !important;
+}
+/*fin solución*/
 /* .row {
   border: 1px solid blue;
 }
