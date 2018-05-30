@@ -107,6 +107,9 @@ h1, h2, h3, h4, h5, h6, button {
 .pricing-table a.button {
   font-family: 'Bree Serif', serif;
 }
+ul.pricing-table {
+  margin-left: 0;
+}
 /* .row {
   border: 1px solid blue;
 }
