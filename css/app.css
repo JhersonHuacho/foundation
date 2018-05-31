@@ -1,7 +1,7 @@
 body {
   background-color: #ee3f54;
 }
-h1, h2, h3, h4, h5, h6, button {
+h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
   font-family: 'Bree Serif', serif;
 }
 #social-container {
@@ -120,6 +120,16 @@ ul.pricing-table {
 #info-container .info-map iframe {
   width: 100%;
 }
+
+#suscribete-container {
+  background-color: #ee3f54;
+  color: white;
+  padding: 1em 0;
+}
+#suscribete-container h4 small {
+  color: #ffcddc;
+}
+
 /* .row {
   border: 1px solid blue;
 }
