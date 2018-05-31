@@ -141,11 +141,13 @@ ul.pricing-table {
   z-index: 100;
 }
 
-#offCanvas {
+#offCanvas,
+#offCanvas li a {
   background-color: black;
-  color: white;
   font-family: 'Bree Serif', serif;
+  color: white;
 }
+
 /* .row {
   border: 1px solid blue;
 }
