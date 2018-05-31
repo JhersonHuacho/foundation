@@ -44,19 +44,21 @@
 
     <!-- Menu-->
     <section id="menu-container">
-      <ul class="menu dropdown align-spaced" data-dropdown-menu>
-        <li><a href="#"><i class="fi-ticket"></i> Tickets</a></li>
+      <nav data-magellan>
+        <ul class="menu dropdown align-spaced" data-dropdown-menu>
+        <li><a href="#tickets-container"><i class="fi-ticket"></i> Tickets</a></li>
         <li>
-          <a href="#">Lineup</a>
+          <a href="#lineup-container">Lineup</a>
           <ul id="submenu-container" class="menu">
               <li><a href="#">Viernes</a></li>
               <li><a href="#">Sábado</a></li>
               <li><a href="#">Domingo</a></li>
           </ul>
         </li>
-        <li class="active"><a href="#">Info</a></li>
-        <li><a href="#">Sucríbete</a></li>
+        <li class="active"><a href="#info-container">Info</a></li>
+        <li><a href="#suscribete-container">Sucríbete</a></li>
       </ul>
+      </nav>
     </section>
     <!-- Menu-->
 
@@ -71,7 +73,7 @@
     <!-- Tickets -->
 
     <!-- Lienup -->
-    <section id="lineup-container">
+    <section id="lineup-container" data-magellan-target="lineup-container">
       <h3 class="text-center">Lineup</h3>
 
       <ul class="tabs text-center" id="lineup-tabs" data-tabs>
@@ -376,7 +378,7 @@
     <!-- Lienup -->
 
     <!-- Compra de Boletos -->
-    <section id="tickets-container">
+    <section id="tickets-container" data-magellan-target="tickets-container">
       <h3 class="text-center">Comprar Boletos</h3>
       <div class="row" data-equalizer data-equalize-on="small">
         <div class="column small-10 small-offset-1 medium-6 medium-offset-3">
@@ -417,7 +419,7 @@
     <!-- Compra de Boletos -->
 
     <!-- Suscribete -->
-    <section id="suscribete-container">
+    <section id="suscribete-container" data-magellan-target="suscribete-container">
       <h3 class="text-center">Suscríbete</h3>
       <h4 class="text-center"><small>Y recibe las últimas novedades del concierto</small></h4>
       <form action="" method="" novalidate data-abide>
@@ -438,7 +440,7 @@
     <!-- /Suscribete -->
 
     <!-- Info -->
-    <section id="info-container">
+    <section id="info-container" data-magellan-target="info-container">
       <h3 class="text-center">Información</h3>
       <div class="text-center">
         <!-- <img data-interchange="[https://media2.fdncms.com/sacurrent/imager/u/original/5526574/gunsn_roses_courtesyofgunsn_roses.jpg, small],[http://www.disfracestorrente.com/blog/wp-content/uploads/2015/09/banda_rock.jpg, large]"> -->
