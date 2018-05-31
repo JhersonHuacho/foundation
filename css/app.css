@@ -136,6 +136,9 @@ ul.pricing-table {
   background-color: rgb(255, 228, 228);
   border-color: rgb(255, 228, 228);
 }
+.data-sticky {
+  z-index: 100;
+}
 /* .row {
   border: 1px solid blue;
 }
